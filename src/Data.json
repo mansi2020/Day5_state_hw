@@ -1,0 +1,14 @@
+[
+  {
+    "Paragraph":
+      "This type of file provides a human-readable format for storing and manipulating data when developers build software. It was initially designed based on Javascript object notation but has since grown in popularity, so many different languages are compatible with JSON data."
+  },
+  {
+    "Paragraph":
+      "The JSON data format is an open standard file (.json) and data format used for data interchange through various forms of technology. The most common use of JSON data and files is to read data from a server for a website or web application to display — and change data given the correct permissions."
+  },
+  {
+    "Paragraph":
+      "But, that is not the only thing it is used for. Computer applications, programs, mobile apps, and much more all use JSON files. It is so universal that one might argue it is used virtually everywhere."
+  }
+]

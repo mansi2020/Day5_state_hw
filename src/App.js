@@ -3,8 +3,8 @@ import "./App.css";
 import Paradata from "./Data.json";
 import Header from "./Component/Header";
 
-
 function App() {
+
   // state variable poaranum and paragraphs
   const [paraNum, setParaNum] = useState(0);
   const [paragraphs, setparagraphs] = useState([]);
@@ -27,7 +27,6 @@ function App() {
         );
       }
     } else {
-
       // add paragraph according to paranum
       const generatedParagraphs = [];
       for (let i = 0; i < paraNum; i++) {
@@ -64,7 +63,9 @@ function App() {
         <div className="app_para_container">
           <h3>Generated Paragraphs:</h3>
           {paragraphs.map((paragraph, index) => (
-            <div key={index} className="App_conatainer_gerated_para">{paragraph}</div>
+            <div key={index} className="App_conatainer_gerated_para">
+              {paragraph}
+            </div>
           ))}
         </div>
       )}
